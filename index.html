@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>h-w__8</title>
+</head>
+<body>
+    <div class="text-box">
+        <h3>Пофарбуйте мене в рожевий колір (color:pink).</h3>
+        <p>Даний елемент має залишитись неоформленим.</p>
+        <p id="greycol">Пофарбуйте мене в сірий колір (color:grey).</p>
+        <div>Даний елемент має залишитись неоформленим.</div>
+        <div><p>Пофарбуйте мене в червоний колір (color:red).</p></div>
+        <h3>Даний елемент має залишитись неоформленим.</h3>
+        <p>Пофарбуйте мене в зелений колір (color:green).</p>
+        <p class="yellow">Пофарбуйте мене в жовтий колір (color:yellow).</p>
+      </div>
+      <style>
+      .text-box h3 {
+        color: pink;
+      }
+      
+      .text-box p#greycol {
+        color: grey;
+      }
+      
+      .text-box div p {
+        color: red;
+      }
+      
+      .text-box p:nth-of-type(3) {
+        color: green;
+      }
+      
+      .text-box p.yellow {
+        color: yellow;
+      }
+      </style>
+
+
+<table>
+    <caption>
+        Таблиця розкладу шкільних занять
+    </caption>
+    <thead>
+        <tr>
+            <th>Понеділок</th>
+            <th>Вівторок</th>
+            <th>Середа</th>
+            <th>Четвер</th>
+            <th>П'ятниця</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Історія</td>
+            <td>Фізкультура</td>
+            <td>Інформатика</td>
+            <td>Правознавство</td>
+            <td>Математика</td>
+        </tr>
+        <tr>
+            <td>Фізика</td>
+            <td>Англійська</td>
+            <td>Фізкультура</td>
+            <td>Екологія</td>
+            <td>Історія</td>
+        </tr>
+        <tr>
+            <td>Українська</td>
+            <td>Хімія</td>
+            <td>Математика</td>
+            <td>Правознавство</td>
+            <td>Фізика</td>
+        </tr>
+        <tr>
+            <td>Інформатика</td>
+            <td>Англійська</td>
+            <td>Фізика</td>
+            <td>Хімія</td>
+            <td>Фізкультура</td>
+        </tr>
+    </tbody>
+</table>
+    <style>
+    /* Псевдокласи стану */
+td:hover {
+  color: blue; /* Зміна кольору при наведенні миші */
+}
+
+td:active {
+  background-color: lightgray; /* Зміна фонового кольору при активізації елементу */
+}
+
+td:focus {
+  font-weight: bold; /* Зміна товщини шрифту при фокусі */
+}
+
+a:visited {
+  text-decoration: line-through; /* Закреслення тексту для відвіданих посилань */
+}
+
+/* Структурні псевдокласи */
+td:first-child {
+  background-color: lightgreen; /* Зміна фонового кольору для першого елементу таблиці */
+}
+
+td:last-child {
+  background-color: lightcoral; /* Зміна фонового кольору для останнього елементу таблиці */
+}
+
+td:nth-child(odd) {
+  color: purple; /* Зміна кольору для непарних елементів таблиці */
+}
+
+td:nth-child(even) {
+  color: orange; /* Зміна кольору для парних елементів таблиці */
+}
+
+td:nth-child(3n) {
+  font-style: italic; /* Зміна стилю шрифту для елементів, які є кратними 3 */
+}
+</style>
+</body>
+</html>
