@@ -1,0 +1,62 @@
+/* ! === Селектор тегу === */
+body {
+    background-color: white;
+    color: gray;
+}
+
+/* ! === Селектор тегу === */
+body {
+    background-color: white;
+    color: red;
+}
+
+/* ! === Селектор тегу === */
+body {
+    background-color: white;
+    color: green;
+}
+
+/* ! === Селектор тегу === */
+body {
+    background-color: white;
+    color: yellow;
+}
+
+
+/* Псевдокласи стану */
+td:hover {
+    color: blue; /* Зміна кольору при наведенні миші */
+  }
+  
+  td:active {
+    background-color: lightgray; /* Зміна фонового кольору при активізації елементу */
+  }
+  
+  td:focus {
+    font-weight: bold; /* Зміна товщини шрифту при фокусі */
+  }
+  
+  a:visited {
+    text-decoration: line-through; /* Закреслення тексту для відвіданих посилань */
+  }
+  
+  /* Структурні псевдокласи */
+  td:first-child {
+    background-color: lightgreen; /* Зміна фонового кольору для першого елементу таблиці */
+  }
+  
+  td:last-child {
+    background-color: lightcoral; /* Зміна фонового кольору для останнього елементу таблиці */
+  }
+  
+  td:nth-child(odd) {
+    color: purple; /* Зміна кольору для непарних елементів таблиці */
+  }
+  
+  td:nth-child(even) {
+    color: orange; /* Зміна кольору для парних елементів таблиці */
+  }
+  
+  td:nth-child(3n) {
+    font-style: italic; /* Зміна стилю шрифту для елементів, які є кратними 3 */
+  }
